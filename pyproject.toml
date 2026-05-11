@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zotero-pdf-outline-builder"
+version = "0.1.2"
+description = "Prototype CLI for generating PDF outlines/bookmarks for Zotero papers."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["PyMuPDF>=1.23,<1.25"]
+
+[project.scripts]
+zotero-pdf-outline-builder = "zotero_pdf_outline_builder.cli:main"
+zotero-pdf-outline-debug-ui = "zotero_pdf_outline_builder.debug_server:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

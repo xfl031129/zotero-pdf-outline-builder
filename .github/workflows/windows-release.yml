@@ -1,0 +1,43 @@
+name: Windows Release Build
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - "v*"
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Create virtual environment
+        shell: pwsh
+        run: |
+          python -m venv .venv
+          .\.venv\Scripts\python -m pip install --upgrade pip
+
+      - name: Run tests
+        shell: pwsh
+        run: |
+          .\.venv\Scripts\pip install -e . pytest
+          .\.venv\Scripts\python -m pytest -q
+
+      - name: Build Windows release XPI
+        shell: pwsh
+        run: |
+          powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\build-windows-release.ps1
+
+      - name: Upload release artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: zotero-pdf-outline-builder-windows
+          path: |
+            dist/release/*.xpi
+            dist/release/updates.json

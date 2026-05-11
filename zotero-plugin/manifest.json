@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "PDF Outline Builder for Zotero",
+  "version": "0.1.2",
+  "description": "Generate PDF bookmarks/outlines for selected Zotero PDF attachments.",
+  "homepage_url": "https://github.com/xfl031129/zotero-pdf-outline-builder",
+  "applications": {
+    "zotero": {
+      "id": "zotero-pdf-outline-builder@xfl031129.github.io",
+      "strict_min_version": "6.999",
+      "strict_max_version": "9.0.*",
+      "update_url": "https://github.com/xfl031129/zotero-pdf-outline-builder/releases/latest/download/updates.json"
+    }
+  }
+}

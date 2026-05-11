@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+outline-helper.spec
+zotero-plugin/native/win/*.exe
+*.outlined.pdf
+outlined-output/
+logs/
+debug-runs/
+examples/
+examples_stress/
+*.debug.pdf
