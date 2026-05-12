@@ -118,28 +118,6 @@ The detector currently handles common cases in academic PDFs:
 
 This is not OCR. Scanned PDFs need OCR first.
 
-## Publishing To Zotero Chinese Plugin Index
-
-The old `zotero-chinese/zotero-plugins` repository no longer accepts new plugin submissions. Submit to:
-
-```text
-https://github.com/syt2/zotero-addons-scraper
-```
-
-Add a file under `addons/`, for example:
-
-```text
-addons/xfl031129@zotero-pdf-outline-builder
-```
-
-Suggested content:
-
-```json
-{"tags": ["reader", "attachment", "utility"]}
-```
-
-Then open a pull request.
-
 ## License
 
 MIT
