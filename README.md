@@ -17,6 +17,10 @@ This project contains:
 - a Zotero 9 plugin
 - a Windows-only release build that bundles the engine as `outline-helper.exe`
 
+## No AI API Required
+
+Outline detection is powered by local Python/PyMuPDF layout analysis and rule-based heuristics. It does not call an AI model, and you do not need to provide any API key or cloud service token.
+
 ## Zotero Plugin
 
 The plugin adds a Zotero item context-menu command:
@@ -117,6 +121,10 @@ The detector currently handles common cases in academic PDFs:
 - PDFs with odd text extraction such as `II` being extracted as `IL`
 
 This is not OCR. Scanned PDFs need OCR first.
+
+## Limitations
+
+PDF layouts vary a lot across publishers and paper templates, so the generated outline can occasionally miss headings or include a wrong entry. If that happens, please open a GitHub issue with the PDF or a screenshot of the incorrect outline, plus a short note about what should have been detected.
 
 ## License
 
