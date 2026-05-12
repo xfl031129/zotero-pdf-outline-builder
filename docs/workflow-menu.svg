@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="520" viewBox="0 0 360 520" role="img" aria-labelledby="title desc">
+  <title id="title">Generate outline from Zotero menu</title>
+  <desc id="desc">A Zotero item context menu with Generate or Update PDF Outline highlighted.</desc>
+  <rect width="360" height="520" fill="#ffffff"/>
+  <rect x="0" y="0" width="360" height="520" rx="6" fill="#f4f4f4"/>
+  <g font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="17" fill="#111827">
+    <text x="56" y="31">打开 PDF 到新标签页</text>
+    <text x="56" y="78">打开 PDF 到新窗口</text>
+    <text x="56" y="125">在线查看</text>
+    <text x="56" y="171">打开文件目录</text>
+    <line x1="20" y1="187" x2="286" y2="187" stroke="#dddddd"/>
+    <text x="56" y="222">添加笔记</text>
+    <text x="56" y="268">通过注释添加笔记</text>
+    <text x="56" y="315">添加附件</text>
+    <line x1="20" y1="346" x2="286" y2="346" stroke="#dddddd"/>
+    <text x="56" y="382">导出条目...</text>
+    <text x="56" y="428">用所选条目创建参考文献表...</text>
+  </g>
+
+  <g fill="none" stroke="#7a7a7a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M22 15h18v24H22zM22 15h11v7h7"/>
+    <path d="M22 62h18v24H22zM22 62h11v7h7"/>
+    <circle cx="31" cy="112" r="11"/>
+    <path d="M20 112h22M31 101c4 5 4 17 0 22M31 101c-4 5-4 17 0 22"/>
+    <path d="M20 155h23v18H20zM20 155l5-6h13l5 6"/>
+    <path d="M25 203h15v25H25zM25 208h15M30 203v-5h5v5"/>
+    <path d="M24 250h17v25H24zM28 255h17v25H28M31 260h10M31 267h8"/>
+    <path d="M22 303l11-11a7 7 0 0 1 10 10l-15 15a6 6 0 0 1-8-8l14-14"/>
+    <path d="M24 369v20M17 382l7 7 7-7M17 392h30"/>
+    <path d="M21 410h24M21 419h24M21 428h24M17 410h1M17 419h1M17 428h1"/>
+  </g>
+
+  <rect x="2" y="452" width="356" height="43" rx="5" fill="#d6d6d6"/>
+  <text x="18" y="480" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="18" fill="#111827">生成/更新 PDF 大纲</text>
+  <text x="24" y="514" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="15" fill="#6b7280">2. 右键条目，一键生成</text>
+</svg>

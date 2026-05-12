@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="520" viewBox="0 0 360 520" role="img" aria-labelledby="title desc">
+  <title id="title">PDF outline generated</title>
+  <desc id="desc">A Zotero reader sidebar with generated first-level and second-level PDF outline entries.</desc>
+  <rect width="360" height="520" fill="#ffffff"/>
+  <rect x="0" y="0" width="360" height="58" fill="#f7f7f7"/>
+  <rect x="0" y="58" width="360" height="56" fill="#f7f7f7"/>
+  <line x1="0" y1="58" x2="360" y2="58" stroke="#dedede"/>
+  <line x1="0" y1="114" x2="360" y2="114" stroke="#dedede"/>
+  <g fill="none" stroke="#7a7a7a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="20" y="16" width="7" height="10"/>
+    <rect x="32" y="16" width="7" height="10"/>
+    <rect x="20" y="31" width="7" height="10"/>
+    <rect x="32" y="31" width="7" height="10"/>
+    <path d="M64 24h20v20H64zM58 18h20v20"/>
+    <rect x="98" y="10" width="38" height="38" rx="8" fill="#dedede" stroke="none"/>
+    <path d="M110 20h16v23l-8-5-8 5z"/>
+    <path d="M148 16h18v29l-9-6-9 6z"/>
+    <circle cx="31" cy="86" r="14"/>
+    <path d="M24 86l5 5 9-10"/>
+    <circle cx="83" cy="86" r="14"/>
+    <path d="M78 78l8 8-8 8"/>
+    <path d="M129 76h15v28l-8-5-7 5z"/>
+    <path d="M140 76v-6M137 73h6"/>
+    <path d="M179 76h15v28l-8-5-7 5z"/>
+    <path d="M191 73h6M194 70v6"/>
+    <rect x="224" y="75" width="24" height="24" rx="3"/>
+  </g>
+
+  <g font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="18" fill="#111827">
+    <rect x="41" y="126" width="306" height="33" rx="4" fill="#e5f2ff"/>
+    <line x1="13" y1="118" x2="13" y2="152" stroke="#ff4d5d" stroke-width="3"/>
+    <text x="41" y="149">I. INTRODUCTION</text>
+    <line x1="13" y1="160" x2="13" y2="194" stroke="#ff4d5d" stroke-width="3"/>
+    <text x="24" y="184">›</text>
+    <text x="41" y="184">II. LITERATURE REVIEW</text>
+    <line x1="51" y1="199" x2="51" y2="254" stroke="#ff9900" stroke-width="3"/>
+    <text x="79" y="221" font-size="16">A. Legged Locomotion using RL</text>
+    <text x="79" y="251" font-size="16">B. Hybrid Wheeled-Legged Loco...</text>
+    <line x1="13" y1="264" x2="13" y2="298" stroke="#ff4d5d" stroke-width="3"/>
+    <text x="24" y="288">›</text>
+    <text x="41" y="288">III. METHODOLOGY</text>
+    <line x1="51" y1="304" x2="51" y2="386" stroke="#ff9900" stroke-width="3"/>
+    <text x="79" y="326" font-size="16">A. Learning Environment</text>
+    <text x="79" y="356" font-size="16">B. Task Formulation</text>
+    <text x="79" y="386" font-size="16">C. Sim-to-real Transfer</text>
+    <line x1="13" y1="397" x2="13" y2="431" stroke="#ff4d5d" stroke-width="3"/>
+    <text x="24" y="421">›</text>
+    <text x="41" y="421">IV. EXPERIMENTS &amp; RESULTS</text>
+    <line x1="13" y1="442" x2="13" y2="476" stroke="#ff4d5d" stroke-width="3"/>
+    <text x="24" y="466">›</text>
+    <text x="41" y="466">V. CONCLUSION</text>
+    <text x="41" y="502">REFERENCES</text>
+  </g>
+</svg>

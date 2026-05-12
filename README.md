@@ -2,6 +2,14 @@
 
 Generate PDF bookmarks/outlines for papers whose PDF outline panel is empty in Zotero.
 
+## What It Does
+
+| 1. Empty outline | 2. Generate from Zotero | 3. Outline appears |
+| --- | --- | --- |
+| ![A Zotero PDF with an empty outline panel](docs/workflow-before.svg) | ![The Zotero context menu command for generating a PDF outline](docs/workflow-menu.svg) | ![A Zotero PDF with generated outline entries](docs/workflow-after.svg) |
+
+Right-click one or more Zotero items, run `生成/更新 PDF 大纲`, and the plugin writes standard PDF bookmarks back into the attachment. Zotero's reader can then show and jump through the generated outline.
+
 This project contains:
 
 - a Python/PyMuPDF heading detection engine
